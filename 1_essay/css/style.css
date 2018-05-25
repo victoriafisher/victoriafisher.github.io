@@ -1,0 +1,28 @@
+body {
+  background-color: green;
+  width: 900px;
+  margin:auto;
+  margin-top:200px;
+  font-family: Garamond;
+  color: white;
+}
+
+p {
+  font-family: Helvetica;
+}
+
+h1 {
+  text-align: center;
+  border: 15px solid white;
+  background-color: green;
+  font-size: 50px;
+  padding: 30px;
+  margin: 10px;
+}
+
+h2 {
+  font family: Garamond;
+  text-transform: uppercase;
+  text-alighn: center;
+
+}

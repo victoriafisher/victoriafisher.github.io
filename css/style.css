@@ -1,0 +1,66 @@
+body {
+  background-image: url("clem-onojeghuo-180152-unsplash.jpg");
+  background-color: #cccccc;
+  width: 1000px;
+  font-family: Garamond;
+  color: white;
+}
+
+p {
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+  text-align: center;
+
+  text-transform: uppercase;
+  font-size: 50px;
+  padding: 30px;
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+  font family: Garamond;
+  text-transform: uppercase;
+  text-alighn: center;
+
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  background: white;
+}
+
+li a {
+    display: block;
+    color: #000;
+    background: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
