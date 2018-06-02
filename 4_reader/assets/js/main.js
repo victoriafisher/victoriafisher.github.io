@@ -14,7 +14,7 @@ $(document).ready(function() {
 
   $(".meme2").hover(
     function(){
-      var number = Math.round(Math.random() * 8);
+      var number = Math.round(Math.random() * 4);
         $(".meme_img_wrapper").append(
           "<img class='meme_img' src='assets/images/article2/" + number + ".jpg' />"
         )
@@ -26,7 +26,7 @@ $(document).ready(function() {
 
   $(".meme3").hover(
     function(){
-      var number = Math.round(Math.random() * 8);
+      var number = Math.round(Math.random() * 4);
         $(".meme_img_wrapper").append(
           "<img class='meme_img' src='assets/images/article3/" + number + ".jpg' />"
         )
