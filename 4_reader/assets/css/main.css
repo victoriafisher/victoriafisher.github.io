@@ -32,7 +32,15 @@ nav ul{
   display: flex;
   justify-content: space-around;
 }
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
 
+nav ul li a:hover{
+  text-decoration: none;
+  color: #1a0d81;
+}
 .left {
   width: 50%;
   height:100vh;
